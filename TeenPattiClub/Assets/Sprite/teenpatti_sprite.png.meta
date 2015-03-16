@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: fd4934e6b311f40d6a6cb59917782e17
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 3_aces
+    21300002: 3_aces_play_mode
+    21300004: 3_patti_name
+    21300006: _menured_strip_button
+    21300008: bg_game
+    21300010: blue_chip
+    21300012: card_heart
+    21300014: card_phool
+    21300016: free_plat_button
+    21300018: gift_box
+    21300020: gold-button-hi
+    21300022: gold_coins_02
+    21300024: gold_coins_00
+    21300026: gold_coins_01
+    21300028: gold_coins_03
+    21300030: gold_coins_04
+    21300032: gold_coins_05
+    21300034: golden_button_big
+    21300036: green_chip
+    21300038: guest_green_button
+    21300040: hukm_card
+    21300042: login_blue_button
+    21300044: menu_strip
+    21300046: paid_play_button
+    21300048: player_square
+    21300050: red_chip_button
+    21300052: red_strip
+    21300054: sand_timmer
+    21300056: setting_button
+    21300058: sigh_up_bg
+    21300060: small_golden_button
+    21300062: star_button
+    21300064: table_game
+    21300066: trophy_button
+    21300068: white_chip
+    21300070: white_frame
+    21300072: yellow_button
+    21300074: yellow_button_02
+    21300076: yellow_frame
+    21300078: PlayerViewBG
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 3_aces
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 2795
+        width: 491
+        height: 583
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3_aces_play_mode
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1557
+        width: 979
+        height: 472
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3_patti_name
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1442
+        width: 894
+        height: 344
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: _menured_strip_button
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2024
+        width: 1028
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_game
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3006
+        width: 1441
+        height: 1080
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blue_chip
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 3302
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_heart
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 210
+        width: 331
+        height: 507
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: card_phool
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 773
+        width: 375
+        height: 510
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: free_plat_button
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3978
+        width: 498
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gift_box
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1433
+        width: 106
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gold-button-hi
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 932
+        width: 600
+        height: 184
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gold_coins_02
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 550
+        width: 339
+        height: 167
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gold_coins_00
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1087
+        width: 221
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gold_coins_01
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 377
+        width: 299
+        height: 163
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gold_coins_03
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 29
+        width: 347
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gold_coins_04
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1126
+        width: 385
+        height: 157
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gold_coins_05
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 751
+        width: 363
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: golden_button_big
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 2049
+        width: 184
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: green_chip
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1449
+        width: 92
+        height: 98
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guest_green_button
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3860
+        width: 498
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hukm_card
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 171
+        width: 415
+        height: 546
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: login_blue_button
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3742
+        width: 498
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: menu_strip
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1293
+        width: 814
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: paid_play_button
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3624
+        width: 498
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayerViewBG
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1252
+        width: 154
+        height: 203
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 75, y: 100, z: 75, w: 100}
+    - name: red_chip_button
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1551
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: red_strip
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1465
+        width: 891
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sand_timmer
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 2847
+        width: 150
+        height: 149
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: setting_button
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1336
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sigh_up_bg
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 2039
+        width: 754
+        height: 746
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: small_golden_button
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1672
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: star_button
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1292
+        width: 138
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: table_game
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2173
+        width: 1251
+        height: 823
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: trophy_button
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 923
+        width: 129
+        height: 154
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: white_chip
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1928
+        width: 83
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: white_frame
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 727
+        width: 719
+        height: 728
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: yellow_button
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3506
+        width: 498
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: yellow_button_02
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 3388
+        width: 498
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: yellow_frame
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1796
+        width: 261
+        height: 218
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
