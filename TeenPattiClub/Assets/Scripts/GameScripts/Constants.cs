@@ -9,7 +9,7 @@ public class Constants {
 
 	public static string APP_KEY = "15a0291a-c40e-4bb9-8";
 	
-	public static string HOST_NAME =  "192.168.1.2";
+	public static string HOST_NAME =  "192.168.1.8";
 
 	public const int PORT_NO =  12346;
 	

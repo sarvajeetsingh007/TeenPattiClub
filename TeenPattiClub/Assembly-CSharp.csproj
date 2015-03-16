@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{F7BACB67-D9B0-1468-EAF3-1C694208DFD2}</ProjectGuid>
+	<ProjectGuid>{57CC3083-1A77-71DC-5505-DBA50188026B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -65,7 +65,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="AppWarpS2Unity_1.0.8">
- <HintPath>/Volumes/UTILITY/RUNNING PROJ/TeenPatti/Assets/AppWarp Files/AppWarpS2Unity_1.0.8.dll</HintPath>
+ <HintPath>/Users/VIT/GitHub/TeenPattiClub/TeenPattiClub/Assets/AppWarp Files/AppWarpS2Unity_1.0.8.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -10,3 +10,6 @@
 2015-03-13 18:32:47,561 - WARNING: Running with 300 CCU limit
 2015-03-13 19:12:25,482 - WARNING: closing unknown idle session /192.168.1.2:53149
 2015-03-13 19:23:03,285 - WARNING: closing unknown idle session /192.168.1.2:53244
+2015-03-16 12:32:26,876 - WARNING: Error in loading license from server java.lang.Exception: no license key in AppConfig.json
+2015-03-16 12:32:26,880 - WARNING: Running with 300 CCU limit
+2015-03-16 12:35:31,699 - WARNING: closing unknown idle session /192.168.1.8:50104

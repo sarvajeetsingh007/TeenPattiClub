@@ -25,3 +25,5 @@
 2015-03-13 19:14:07,298 - ERROR: Error in getLockProperties java.lang.NullPointerException
 2015-03-13 19:14:14,757 - ERROR: Error in getLockProperties java.lang.NullPointerException
 2015-03-13 19:15:33,280 - WARNING: closing idle session /192.168.1.2:53213
+2015-03-16 12:34:26,430 - WARNING: Room Created: id= 505701227
+2015-03-16 12:34:48,992 - WARNING: handleSessionClosed user for this session is already deleted
