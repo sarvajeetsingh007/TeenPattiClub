@@ -1,0 +1,27 @@
+2015-03-12 16:26:42,492 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-12 16:38:18,438 - WARNING: closing idle session /192.168.1.13:52600
+2015-03-12 17:14:33,991 - WARNING: closing idle session /192.168.1.13:53030
+2015-03-12 17:55:57,732 - WARNING: closing idle session /192.168.1.13:53154
+2015-03-13 16:31:06,526 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-13 18:14:03,273 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-13 18:15:31,912 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-13 18:23:16,095 - WARNING: closing idle session /192.168.1.13:52343
+2015-03-13 18:24:02,179 - WARNING: closing idle session /192.168.1.13:52349
+2015-03-13 18:29:38,938 - WARNING: closing idle session /192.168.1.2:52527
+2015-03-13 18:32:55,220 - WARNING: Room Created: id= 1655895767
+2015-03-13 18:35:03,177 - WARNING: closing idle session /192.168.1.2:52554
+2015-03-13 18:35:18,264 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-13 18:35:30,664 - WARNING: Room Created: id= 1309835320
+2015-03-13 18:35:42,793 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-13 19:13:24,284 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:29,730 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:31,203 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:32,023 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:32,230 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:32,437 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:34,041 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:40,247 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:13:42,186 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:14:07,298 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:14:14,757 - ERROR: Error in getLockProperties java.lang.NullPointerException
+2015-03-13 19:15:33,280 - WARNING: closing idle session /192.168.1.2:53213

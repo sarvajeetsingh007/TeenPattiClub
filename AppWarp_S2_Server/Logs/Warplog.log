@@ -1,0 +1,12 @@
+2015-03-12 16:14:11,774 - WARNING: Error in loading license from server java.lang.Exception: no license key in AppConfig.json
+2015-03-12 16:14:11,825 - WARNING: Running with 300 CCU limit
+2015-03-12 16:14:13,786 - ERROR: Error in getAllZonesFromHSQLDB java.sql.SQLSyntaxErrorException: user lacks privilege or object not found: SERVICE
+2015-03-12 16:22:28,236 - WARNING: closing unknown idle session /192.168.1.13:52580
+2015-03-13 16:23:26,341 - WARNING: Error in loading license from server java.lang.Exception: no license key in AppConfig.json
+2015-03-13 16:23:26,379 - WARNING: Running with 300 CCU limit
+2015-03-13 16:27:03,506 - WARNING: closing unknown idle session /192.168.1.13:51589
+2015-03-13 17:29:05,441 - WARNING: closing unknown idle session /192.168.1.13:51678
+2015-03-13 18:32:47,522 - WARNING: Error in loading license from server java.lang.Exception: no license key in AppConfig.json
+2015-03-13 18:32:47,561 - WARNING: Running with 300 CCU limit
+2015-03-13 19:12:25,482 - WARNING: closing unknown idle session /192.168.1.2:53149
+2015-03-13 19:23:03,285 - WARNING: closing unknown idle session /192.168.1.2:53244
