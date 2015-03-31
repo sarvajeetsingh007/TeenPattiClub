@@ -1,0 +1,2192 @@
+fileFormatVersion: 2
+guid: ac46019ad78374108b4d4d911751feaa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TeenPattiClub_0
+    21300002: TeenPattiClub_1
+    21300004: TeenPattiClub_2
+    21300006: TeenPattiClub_3
+    21300008: TeenPattiClub_4
+    21300010: TeenPattiClub_5
+    21300012: TeenPattiClub_6
+    21300014: TeenPattiClub_7
+    21300016: TeenPattiClub_8
+    21300018: TeenPattiClub_9
+    21300020: TeenPattiClub_10
+    21300022: TeenPattiClub_11
+    21300024: TeenPattiClub_12
+    21300026: TeenPattiClub_13
+    21300028: TeenPattiClub_14
+    21300030: TeenPattiClub_15
+    21300032: TeenPattiClub_16
+    21300034: TeenPattiClub_17
+    21300036: TeenPattiClub_18
+    21300038: TeenPattiClub_19
+    21300040: TeenPattiClub_20
+    21300042: TeenPattiClub_21
+    21300044: TeenPattiClub_22
+    21300046: TeenPattiClub_23
+    21300048: TeenPattiClub_24
+    21300050: TeenPattiClub_25
+    21300052: TeenPattiClub_26
+    21300054: TeenPattiClub_27
+    21300056: TeenPattiClub_28
+    21300058: TeenPattiClub_29
+    21300060: TeenPattiClub_30
+    21300062: TeenPattiClub_31
+    21300064: TeenPattiClub_32
+    21300066: TeenPattiClub_33
+    21300068: TeenPattiClub_34
+    21300070: TeenPattiClub_35
+    21300072: TeenPattiClub_36
+    21300074: TeenPattiClub_37
+    21300076: TeenPattiClub_38
+    21300078: TeenPattiClub_39
+    21300080: TeenPattiClub_40
+    21300082: TeenPattiClub_41
+    21300084: TeenPattiClub_42
+    21300086: TeenPattiClub_43
+    21300088: TeenPattiClub_44
+    21300090: TeenPattiClub_45
+    21300092: TeenPattiClub_46
+    21300094: TeenPattiClub_47
+    21300096: TeenPattiClub_48
+    21300098: TeenPattiClub_49
+    21300100: TeenPattiClub_50
+    21300102: TeenPattiClub_51
+    21300104: TeenPattiClub_52
+    21300106: TeenPattiClub_53
+    21300108: TeenPattiClub_54
+    21300110: TeenPattiClub_55
+    21300112: TeenPattiClub_56
+    21300114: TeenPattiClub_57
+    21300116: TeenPattiClub_58
+    21300118: TeenPattiClub_59
+    21300120: TeenPattiClub_60
+    21300122: TeenPattiClub_61
+    21300124: TeenPattiClub_62
+    21300126: TeenPattiClub_63
+    21300128: TeenPattiClub_64
+    21300130: TeenPattiClub_65
+    21300132: TeenPattiClub_66
+    21300134: TeenPattiClub_67
+    21300136: TeenPattiClub_68
+    21300138: TeenPattiClub_69
+    21300140: TeenPattiClub_70
+    21300142: TeenPattiClub_71
+    21300144: TeenPattiClub_72
+    21300146: TeenPattiClub_73
+    21300148: TeenPattiClub_74
+    21300150: TeenPattiClub_75
+    21300152: TeenPattiClub_76
+    21300154: TeenPattiClub_77
+    21300156: TeenPattiClub_78
+    21300158: TeenPattiClub_79
+    21300160: TeenPattiClub_80
+    21300162: TeenPattiClub_81
+    21300164: TeenPattiClub_82
+    21300166: TeenPattiClub_83
+    21300168: TeenPattiClub_84
+    21300170: TeenPattiClub_85
+    21300172: TeenPattiClub_86
+    21300174: TeenPattiClub_87
+    21300176: TeenPattiClub_88
+    21300178: TeenPattiClub_89
+    21300180: TeenPattiClub_90
+    21300182: TeenPattiClub_91
+    21300184: TeenPattiClub_92
+    21300186: TeenPattiClub_93
+    21300188: TeenPattiClub_94
+    21300190: TeenPattiClub_95
+    21300192: TeenPattiClub_96
+    21300194: TeenPattiClub_97
+    21300196: TeenPattiClub_98
+    21300198: TeenPattiClub_99
+    21300200: TeenPattiClub_100
+    21300202: TeenPattiClub_101
+    21300204: TeenPattiClub_102
+    21300206: TeenPattiClub_103
+    21300208: TeenPattiClub_104
+    21300210: TeenPattiClub_105
+    21300212: TeenPattiClub_106
+    21300214: TeenPattiClub_107
+    21300216: TeenPattiClub_108
+    21300218: TeenPattiClub_109
+    21300220: TeenPattiClub_110
+    21300222: TeenPattiClub_111
+    21300224: TeenPattiClub_112
+    21300226: TeenPattiClub_113
+    21300228: TeenPattiClub_114
+    21300230: TeenPattiClub_115
+    21300232: TeenPattiClub_116
+    21300234: TeenPattiClub_117
+    21300236: TeenPattiClub_118
+    21300238: TeenPattiClub_119
+    21300240: TeenPattiClub_120
+    21300242: TeenPattiClub_121
+    21300244: TeenPattiClub_122
+    21300246: TeenPattiClub_123
+    21300248: TeenPattiClub_124
+    21300250: TeenPattiClub_125
+    21300252: TeenPattiClub_126
+    21300254: TeenPattiClub_127
+    21300256: TeenPattiClub_128
+    21300258: TeenPattiClub_129
+    21300260: TeenPattiClub_130
+    21300262: TeenPattiClub_131
+    21300264: TeenPattiClub_132
+    21300266: TeenPattiClub_133
+    21300268: TeenPattiClub_134
+    21300270: TeenPattiClub_135
+    21300272: TeenPattiClub_136
+    21300274: TeenPattiClub_137
+    21300276: TeenPattiClub_138
+    21300278: TeenPattiClub_139
+    21300280: TeenPattiClub_140
+    21300282: TeenPattiClub_141
+    21300284: TeenPattiClub_142
+    21300286: TeenPattiClub_143
+    21300288: TeenPattiClub_144
+    21300290: TeenPattiClub_145
+    21300292: TeenPattiClub_146
+    21300294: TeenPattiClub_147
+    21300296: TeenPattiClub_148
+    21300298: TeenPattiClub_149
+    21300300: TeenPattiClub_150
+    21300302: TeenPattiClub_151
+    21300304: TeenPattiClub_152
+    21300306: TeenPattiClub_153
+    21300308: TeenPattiClub_154
+    21300310: TeenPattiClub_155
+    21300312: TeenPattiClub_156
+    21300314: TeenPattiClub_157
+    21300316: TeenPattiClub_158
+    21300318: TeenPattiClub_159
+    21300320: TeenPattiClub_160
+    21300322: TeenPattiClub_161
+    21300324: TeenPattiClub_162
+    21300326: TeenPattiClub_163
+    21300328: TeenPattiClub_164
+    21300330: TeenPattiClub_165
+    21300332: TeenPattiClub_166
+    21300334: TeenPattiClub_167
+    21300336: TeenPattiClub_168
+    21300338: TeenPattiClub_169
+    21300340: TeenPattiClub_170
+    21300342: TeenPattiClub_171
+    21300344: TeenPattiClub_172
+    21300346: TeenPattiClub_173
+    21300348: TeenPattiClub_174
+    21300350: TeenPattiClub_175
+    21300352: TeenPattiClub_176
+    21300354: TeenPattiClub_177
+    21300356: TeenPattiClub_178
+    21300358: TeenPattiClub_179
+    21300360: TeenPattiClub_180
+    21300362: TeenPattiClub_181
+    21300364: TeenPattiClub_182
+    21300366: TeenPattiClub_183
+    21300368: TeenPattiClub_184
+    21300370: TeenPattiClub_185
+    21300372: TeenPattiClub_186
+    21300374: TeenPattiClub_187
+    21300376: TeenPattiClub_188
+    21300378: TeenPattiClub_189
+    21300380: TeenPattiClub_190
+    21300382: TeenPattiClub_191
+    21300384: TeenPattiClub_192
+    21300386: TeenPattiClub_193
+    21300388: TeenPattiClub_194
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TeenPattiClub_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1752
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1739
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1737
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1737
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1737
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1730
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1726
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_7
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1724
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_8
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1722
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1721
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_10
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1718
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1715
+        width: 263
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_12
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1709
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_13
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1709
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_14
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1709
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_15
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1709
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_16
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1709
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_17
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1709
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_18
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1705
+        width: 72
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_19
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1698
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_20
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1695
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_21
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1691
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_22
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1690
+        width: 103
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1597
+        width: 411
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_24
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1597
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1597
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_26
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1597
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_27
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1597
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_28
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1597
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_29
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1597
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_30
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1597
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_31
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1597
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_32
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1597
+        width: 311
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_33
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1597
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_34
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1597
+        width: 92
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1503
+        width: 482
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_36
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1576
+        width: 81
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_37
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1455
+        width: 138
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_38
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1451
+        width: 92
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_39
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1447
+        width: 206
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_40
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1447
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_41
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1445
+        width: 224
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_42
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1441
+        width: 152
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_43
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1494
+        width: 79
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_44
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1242
+        width: 340
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_45
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1224
+        width: 215
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_46
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1225
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_47
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1425
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_48
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1428
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_49
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1430
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_50
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1432
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_51
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1432
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_52
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1430
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_53
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1427
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_54
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1419
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_55
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1423
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_56
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1417
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_57
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1406
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_58
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1413
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_59
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 1412
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_60
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1398
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_61
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1404
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_62
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1397
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_63
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1389
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_64
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1387
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_65
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1380
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_66
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1376
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_67
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1369
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_68
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1365
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_69
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1357
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_70
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 1354
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_71
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1346
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_72
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1342
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_73
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1333
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_74
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1329
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_75
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1320
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_76
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1316
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_77
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1307
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_78
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1303
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_79
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1294
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_80
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1290
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_81
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1294
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_82
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1282
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_83
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 1277
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_84
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1179
+        width: 161
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_85
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1269
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_86
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1264
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_87
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1174
+        width: 149
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_88
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1256
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_89
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1253
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_90
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1243
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_91
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1239
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_92
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1231
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_93
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 1228
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_94
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1219
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_95
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1217
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_96
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1209
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_97
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1206
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_98
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1200
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_99
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 1197
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_100
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1191
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_101
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1183
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_102
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1189
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_103
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1176
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_104
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1174
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_105
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 1181
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_106
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1170
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_107
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1166
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_108
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1163
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_109
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1165
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_110
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 1169
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_111
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1161
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_112
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 1161
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_113
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1161
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_114
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1162
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_115
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 782
+        width: 375
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_116
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 782
+        width: 376
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_117
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 782
+        width: 377
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_118
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 778
+        width: 376
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_119
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 778
+        width: 375
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_120
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 757
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_121
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 765
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_122
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 13
+        width: 313
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_123
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 3
+        width: 1369
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_124
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 749
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 732
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_126
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 740
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_127
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 716
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_128
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 723
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_129
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 699
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 706
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_131
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 691
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_132
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 674
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_133
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 682
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_134
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 657
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_135
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 665
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_136
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 641
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_137
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 648
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_138
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 624
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_139
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 632
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_140
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 616
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_141
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 607
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_142
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 603
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_143
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 603
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_144
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 603
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_145
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 603
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_146
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 601
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 601
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_148
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 600
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_149
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 598
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_150
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 595
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_151
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 592
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_152
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 588
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_153
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 583
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_154
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 579
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_155
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 572
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_156
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 562
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_157
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 553
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_158
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 540
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_159
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 529
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_160
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 515
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_161
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 504
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_162
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 487
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_163
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 495
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_164
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 476
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_165
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 482
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_166
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 467
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_167
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 469
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_168
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 471
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_169
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 474
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_170
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 465
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_171
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 465
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_172
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 465
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_173
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 463
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_174
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 465
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_175
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 465
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_176
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 465
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_177
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 454
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_178
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 444
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_179
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 427
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_180
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 418
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_181
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 408
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_182
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 399
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_183
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 390
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_184
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 381
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_185
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 371
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_186
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 362
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_187
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 345
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_188
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 336
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_189
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 326
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_190
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 317
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_191
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 308
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_192
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 300
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_193
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 291
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TeenPattiClub_194
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 282
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

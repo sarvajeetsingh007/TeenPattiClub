@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
 	public void backButtonClicked()
 	{
-		Application.LoadLevel ("LobbyScene");
+		gameObject.SetActive (false);
 	}
 
 	public void buyChipsButtonClicked()

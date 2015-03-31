@@ -55,10 +55,12 @@
      <Compile Include="Assets\Scripts\GameScripts\ProgressDialog.cs" />
      <Compile Include="Assets\Scripts\GameScripts\RoomSelectionActivity.cs" />
      <Compile Include="Assets\Scripts\GameScripts\Utils.cs" />
+     <Compile Include="Assets\Scripts\GuestLoginManager.cs" />
      <Compile Include="Assets\Scripts\HomeScreenManager.cs" />
      <Compile Include="Assets\Scripts\LobbyManager.cs" />
      <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
+     <Compile Include="Assets\Scripts\PopUpManager.cs" />
      <Compile Include="Assets\Scripts\SignUpManager.cs" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">

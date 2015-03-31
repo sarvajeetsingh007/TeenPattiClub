@@ -27,3 +27,102 @@
 2015-03-13 19:15:33,280 - WARNING: closing idle session /192.168.1.2:53213
 2015-03-16 12:34:26,430 - WARNING: Room Created: id= 505701227
 2015-03-16 12:34:48,992 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-16 12:42:16,668 - WARNING: closing idle session /192.168.1.8:50114
+2015-03-16 16:33:54,177 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-16 16:34:01,693 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-17 12:51:29,082 - WARNING: Room Created: id= 1108219358
+2015-03-20 12:53:01,330 - WARNING: Room Created: id= 625219259
+2015-03-20 13:18:26,842 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 13:25:26,935 - WARNING: Room Created: id= 728493477
+2015-03-20 13:30:51,932 - WARNING: closing idle session /192.168.1.8:54625
+2015-03-20 13:36:12,220 - WARNING: Room Created: id= 734853216
+2015-03-20 13:47:50,668 - WARNING: closing idle session /192.168.1.8:56910
+2015-03-20 15:26:42,278 - WARNING: closing idle session /192.168.1.8:64543
+2015-03-20 15:31:22,119 - WARNING: Room Created: id= 1885960524
+2015-03-20 15:32:20,284 - WARNING: closing idle session /192.168.1.8:49357
+2015-03-20 15:34:13,466 - WARNING: closing idle session /192.168.1.8:49407
+2015-03-20 16:47:17,729 - WARNING: Room Created: id= 1803584788
+2015-03-20 16:48:28,246 - WARNING: closing idle session /192.168.1.8:49903
+2015-03-20 16:48:34,759 - WARNING: closing idle session /192.168.1.8:49968
+2015-03-20 16:57:27,188 - WARNING: Room Created: id= 89245209
+2015-03-20 16:58:26,017 - WARNING: closing idle session /192.168.1.8:52145
+2015-03-20 17:00:16,707 - WARNING: closing idle session /192.168.1.8:52210
+2015-03-20 17:01:47,156 - WARNING: Room Created: id= 1498719315
+2015-03-20 17:02:25,851 - WARNING: closing idle session /192.168.1.8:53086
+2015-03-20 17:03:26,084 - WARNING: Room Created: id= 938763598
+2015-03-20 17:04:26,997 - WARNING: closing idle session /192.168.1.8:53436
+2015-03-20 17:04:56,261 - WARNING: closing idle session /192.168.1.8:53467
+2015-03-20 17:08:15,829 - WARNING: Room Created: id= 300540385
+2015-03-20 17:09:04,541 - WARNING: closing idle session /192.168.1.8:54491
+2015-03-20 17:09:28,620 - WARNING: closing idle session /192.168.1.8:54523
+2015-03-20 17:11:25,811 - ERROR: Error in handleRequest java.lang.NullPointerException
+2015-03-20 17:12:17,157 - ERROR: Error in handleRequest java.lang.NullPointerException
+2015-03-20 17:13:10,611 - ERROR: Error in handleRequest java.lang.NullPointerException
+2015-03-20 17:22:05,526 - WARNING: Room Created: id= 644080868
+2015-03-20 17:40:18,158 - WARNING: Room Created: id= 34023850
+2015-03-20 17:46:47,146 - WARNING: Room Created: id= 140378259
+2015-03-20 17:49:51,927 - WARNING: closing idle session /192.168.1.8:62996
+2015-03-20 17:54:02,151 - WARNING: Room Created: id= 329556752
+2015-03-20 17:54:45,010 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 17:55:22,035 - WARNING: closing idle session /192.168.1.8:64646
+2015-03-20 17:59:33,395 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 17:59:54,417 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 18:00:25,457 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 18:00:56,990 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 18:01:01,995 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 18:01:03,496 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 18:11:13,787 - WARNING: Room Created: id= 890360578
+2015-03-20 18:11:59,429 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-20 18:13:00,031 - WARNING: closing idle session /192.168.1.8:51964
+2015-03-20 18:16:52,905 - WARNING: closing idle session /192.168.1.8:52262
+2015-03-20 18:21:40,940 - ERROR: Error in handleRequest java.lang.NullPointerException
+2015-03-20 18:23:34,923 - WARNING: Room Created: id= 635162525
+2015-03-20 18:24:47,361 - WARNING: closing idle session /192.168.1.8:54547
+2015-03-20 18:28:04,315 - WARNING: Room Created: id= 1114070947
+2015-03-20 18:30:08,789 - WARNING: Room Created: id= 1188901544
+2015-03-20 18:31:14,438 - WARNING: closing idle session /192.168.1.8:55990
+2015-03-20 18:32:42,959 - WARNING: closing idle session /192.168.1.8:56026
+2015-03-20 18:37:38,065 - ERROR: Error in handleRequest java.lang.NullPointerException
+2015-03-20 18:37:53,093 - ERROR: Error in handleRequest java.lang.NullPointerException
+2015-03-20 19:13:52,374 - WARNING: Room Created: id= 527880790
+2015-03-20 19:15:36,077 - WARNING: closing idle session /192.168.1.8:49564
+2015-03-20 19:18:44,691 - WARNING: Room Created: id= 1189107960
+2015-03-20 19:21:42,649 - WARNING: closing idle session /192.168.1.8:50624
+2015-03-20 19:24:16,927 - WARNING: Room Created: id= 660235584
+2015-03-20 19:26:13,776 - WARNING: closing idle session /192.168.1.8:51876
+2015-03-20 19:33:43,234 - WARNING: Room Created: id= 935706418
+2015-03-20 19:37:48,956 - WARNING: closing idle session /192.168.1.8:53982
+2015-03-20 19:47:41,110 - WARNING: Room Created: id= 1591649143
+2015-03-20 19:48:28,659 - WARNING: Room Created: id= 1553599899
+2015-03-20 19:50:17,829 - WARNING: closing idle session /192.168.1.8:57372
+2015-03-21 12:48:15,272 - WARNING: Room Created: id= 337533554
+2015-03-21 12:57:14,982 - WARNING: Room Created: id= 1856283693
+2015-03-21 13:23:03,040 - WARNING: Room Created: id= 1460612644
+2015-03-21 13:23:35,535 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:24:13,994 - WARNING: Room Created: id= 792575526
+2015-03-21 13:25:06,018 - WARNING: Room Created: id= 1343823721
+2015-03-21 13:25:21,188 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:26:55,974 - WARNING: Room Deleted: id= 1460612644
+2015-03-21 13:27:00,783 - WARNING: Room Deleted: id= 1343823721
+2015-03-21 13:27:04,749 - WARNING: Room Deleted: id= 792575526
+2015-03-21 13:27:28,383 - WARNING: Room Created: id= 950539967
+2015-03-21 13:27:41,362 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:27:51,873 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:28:30,790 - WARNING: closing idle session /192.168.1.8:64371
+2015-03-21 13:33:05,244 - WARNING: Room Created: id= 1220662734
+2015-03-21 13:33:32,554 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:34:01,404 - WARNING: closing idle session /192.168.1.8:49183
+2015-03-21 13:34:16,603 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:35:16,696 - WARNING: Room Deleted: id= 1220662734
+2015-03-21 13:35:27,112 - WARNING: Room Created: id= 395469268
+2015-03-21 13:35:41,226 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:35:47,732 - WARNING: handleSessionClosed user for this session is already deleted
+2015-03-21 13:36:08,737 - WARNING: closing idle session /192.168.1.8:49660
+2015-03-21 13:36:23,665 - WARNING: Room Deleted: id= 395469268
+2015-03-21 13:36:38,745 - WARNING: Room Created: id= 1747564195
+2015-03-21 13:42:28,391 - WARNING: closing idle session /192.168.1.8:49875
+2015-03-21 13:56:43,674 - WARNING: closing idle session /192.168.1.8:49905
+2015-03-21 13:57:22,385 - WARNING: Room Created: id= 1506945768
+2015-03-21 13:58:35,779 - WARNING: closing idle session /192.168.1.8:53157
+2015-03-21 14:00:56,136 - WARNING: closing idle session /192.168.1.8:53179
+2015-03-21 14:02:56,284 - WARNING: closing idle session /192.168.1.8:53186

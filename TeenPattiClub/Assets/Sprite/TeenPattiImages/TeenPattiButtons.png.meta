@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: ba15ff0cd83a849a9a017ece4f8e5c94
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FreePlayButton
+    21300002: FBLoginButton
+    21300004: RealPlayButton
+    21300006: PlayAsGuestButton
+    21300008: SignUpButton
+    21300010: LoginButton
+    21300012: PackButton
+    21300014: SideShowButton
+    21300016: ChallButton
+    21300018: RaiseButton
+    21300020: PlayingRuleButton
+    21300022: BlindButton
+    21300024: BlindRaiseButton
+    21300026: SendChatButton
+    21300028: SoundSettingButton
+    21300030: LogOutButton
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FreePlayButton
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 920
+        width: 308
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FBLoginButton
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 911
+        width: 408
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RealPlayButton
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 790
+        width: 308
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayAsGuestButton
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 791
+        width: 408
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SignUpButton
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 675
+        width: 288
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LoginButton
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 665
+        width: 288
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PackButton
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 570
+        width: 208
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SideShowButton
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 572
+        width: 208
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ChallButton
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 474
+        width: 208
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RaiseButton
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 475
+        width: 208
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlayingRuleButton
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 391
+        width: 388
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlindButton
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 372
+        width: 208
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlindRaiseButton
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 367
+        width: 208
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SendChatButton
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 267
+        width: 148
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SoundSettingButton
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 265
+        width: 388
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LogOutButton
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 139
+        width: 388
+        height: 88
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

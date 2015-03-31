@@ -37,7 +37,7 @@ public class HomeScreenManager : MonoBehaviour {
 
 	public void guestButtonClicked()
 	{
-		Application.LoadLevel ("LobbyScene");
+		Application.LoadLevel ("GuestPlayOptionScene");
 	}
 
 	public void facebookButtonClicked()

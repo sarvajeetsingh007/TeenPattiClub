@@ -6,12 +6,14 @@ public class LobbyManager : MonoBehaviour {
 	public GameObject buyChipsScreen;
 	public GameObject progressDialog;
 	public GameObject optionScreen;
+	public GameObject gameScene;
 
 	public void playButtonClicked()
 	{
 		Debug.Log ("PUBLIC Room");
-		RoomSelectionActivity roomActivity = progressDialog.GetComponent<RoomSelectionActivity> ();
-		roomActivity.joinRoomWithOption (false);
+//		RoomSelectionActivity roomActivity = progressDialog.GetComponent<RoomSelectionActivity> ();
+//		roomActivity.joinRoomWithOption (false);
+		gameScene.SetActive (true);
 	}
 
 	public void privateButtonClicked()

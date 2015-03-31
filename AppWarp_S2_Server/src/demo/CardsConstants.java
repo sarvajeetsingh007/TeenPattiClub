@@ -67,6 +67,8 @@ public class CardsConstants {
     public static final byte MAX_CARD = 52;
     // Message Constants
     
+    public static final byte MIN_PLAYER_TOSTART = 2;
+    
     public static final byte PLAYER_HAND = 1;
     
     public static final byte RESULT_GAME_OVER = 3;
@@ -85,5 +87,12 @@ public class CardsConstants {
     public static final int PAUSED = 73;
     public static final int RESUMED = 74;
     public static final int FINISHED = 75;
-
+    
+    public static final int PACK = 101;
+    public static final int CHALL = 102;
+    public static final int RAISE = 103;
+    public static final int BLINDCHALL = 104;
+    public static final int BLINDRAISE = 105;
+    public static final int SIDESHOW = 106;
+    
 }

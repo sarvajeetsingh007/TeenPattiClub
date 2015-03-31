@@ -32,19 +32,19 @@ public class GameController : MonoBehaviour, ConnectionRequestListener {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("Start");
+		//Debug.Log ("Start");
 		theClient.AddConnectionRequestListener (this);
 		onPlayGameClicked ();
 	}
 
 	void OnDestroy ()	{
-		Debug.Log ("OnDestroy");
+		Debug.Log ("GameCONT OnDestroy");
 		theClient.RemoveConnectionRequestListener (this); 
 	}
 	
 	public void onPlayGameClicked()
 	{
-		Constants.userName = @"Sarvajeet Singh";
+		Constants.userName = @"SarvajeetSingh";
 		loginToAppWarp(Constants.userName, "");
 	}
 
@@ -86,7 +86,7 @@ public class GameController : MonoBehaviour, ConnectionRequestListener {
 			progressDialog = null;
 		}
 
-		Debug.Log ("onConnectDone : " + eventObj.getResult());
+		Debug.Log ("GAMECONTROLLER onConnectDone : " + eventObj.getResult());
 		if (eventObj.getResult() == WarpResponseResultCode.SUCCESS)
 		{
 			Debug.Log ("SUCCESS");

@@ -5,33 +5,41 @@ import com.shephertz.app42.server.idomain.HandlingResult;
 import com.shephertz.app42.server.idomain.ITurnBasedRoom;
 import com.shephertz.app42.server.idomain.IUser;
 import com.shephertz.app42.server.idomain.IZone;
+
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Dictionary;
 import java.util.List;
+
+import org.apache.commons.lang.ObjectUtils.Null;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 public class RummyRoomExtension3User extends BaseTurnRoomAdaptor {
 
-    private ITurnBasedRoom gameRoom;
+	private ITurnBasedRoom gameRoom;
     private IZone izone;
     ArrayList<IUser> pausedUserList = new ArrayList<IUser>();
     
     // GameData
+    //private int[] CARDS = new int[] {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51};
     private ArrayList<Integer> CARDS_DECK = new ArrayList<Integer>();
+    //private ArrayList<Integer> CARDS_DECK = new ArrayList<Integer>();
     
-    private ArrayList<Integer> USER_1_HAND = new ArrayList<Integer>();
-    private ArrayList<Integer> USER_2_HAND = new ArrayList<Integer>();
-    private ArrayList<Integer> USER_3_HAND = new ArrayList<Integer>();
+    private PlayerInfo USER_1 = new PlayerInfo();
+    private PlayerInfo USER_2 = new PlayerInfo();
+    private PlayerInfo USER_3 = new PlayerInfo();
+    private PlayerInfo USER_4 = new PlayerInfo();
+    private PlayerInfo USER_5 = new PlayerInfo();
     
-    private int TOP_CARD_DISCARD_PILE = -1;
+    private final int MAX_NO_OF_CARDS = 3;// for each user
     
-    private final int MAX_NO_OF_CARDS = 6;// for each user
+    private int dealerIndex = -1;
+    private int turnIndex = 0;
     
-    private String user1_name = null;
-    private String user2_name = null;
-    private String user3_name = null;
+    private int potValue;
+    private int bootValue;
     
     public byte GAME_STATUS;
     
@@ -44,16 +52,31 @@ public class RummyRoomExtension3User extends BaseTurnRoomAdaptor {
     /*
      * This is a RPC Method when user request for new Card from the deck
      */
-    public int requestNewCard(String username){
-        int newCard = getNewCard();
-        if(username.equals(user1_name)){
-            USER_1_HAND.add(newCard);
-        }else if(username.equals(user2_name)){
-            USER_2_HAND.add(newCard);
-        }else if(username.equals(user3_name)){
-            USER_3_HAND.add(newCard);
+    public ArrayList<Integer> seeCard(String username)
+    {
+    	ArrayList<Integer> Card = null;
+        if(username.equals(USER_1.user.getName()))
+        {
+        	Card = USER_1.HAND;
         }
-        return newCard;
+        else if(username.equals(USER_2.user.getName()))
+        {
+        	Card = USER_2.HAND;
+        }
+        else if(username.equals(USER_3.user.getName()))
+        {
+        	Card = USER_3.HAND;
+        }
+        else if(username.equals(USER_4.user.getName()))
+        {
+        	Card = USER_4.HAND;
+        }
+        else if(username.equals(USER_5.user.getName()))
+        {
+        	Card = USER_5.HAND;
+        }
+        
+        return Card;
     }
     
     /*
@@ -61,94 +84,140 @@ public class RummyRoomExtension3User extends BaseTurnRoomAdaptor {
      */
     @Override
     public void handleMoveRequest(IUser sender, String moveData, HandlingResult result){
+    	
+    	System.out.println("handleMoveRequest: " + sender.getName() + "DAT: " + moveData);
         try{
-            int top_card =-1;
-            JSONObject data = new JSONObject(moveData);
-            top_card = data.getInt("top");
-            validateAndHandleMove(sender, top_card, result);
-            // replace card array on server
-            JSONArray cards = data.getJSONArray("cards");
-            if(sender.getName().equals(user1_name)){
-                for(int i=0;i<cards.length();i++){
-                    USER_1_HAND.set(i, cards.getInt(i));
-                }
-            }else if(sender.getName().equals(user2_name)){
-                for(int i=0;i<cards.length();i++){
-                    USER_2_HAND.set(i, cards.getInt(i));
-                }
-            }else if(sender.getName().equals(user3_name)){
-                for(int i=0;i<cards.length();i++){
-                    USER_3_HAND.set(i, cards.getInt(i));
-                }
+            
+        	int hashIndex = moveData.indexOf('#', 0);
+        	String moveStatus = moveData.substring(0, hashIndex);
+        	String moveValue = moveData.substring(hashIndex + 1, moveData.length());
+        	
+        	UserStatus status = UserStatus.PLAYING;
+            if(Integer.parseInt(moveStatus) == CardsConstants.PACK)
+            {
+            	status = UserStatus.PACK;
+            	
             }
+//            else if(Integer.parseInt(moveStatus) == CardsConstants.SIDESHOW)
+//            {
+//            	
+//            }
+//            else
+//            {
+//            	
+//            }
+            	
+        	if(sender.getName().equals(USER_1.user.getName()))
+            {
+        		USER_1.status = status;
+            }
+            else if(sender.getName().equals(USER_2.user.getName()))
+            {
+            	USER_2.status = status;
+            }
+            else if(sender.getName().equals(USER_3.user.getName()))
+            {
+            	USER_3.status = status;
+            }
+            else if(sender.getName().equals(USER_4.user.getName()))
+            {
+            	USER_4.status = status;
+            }
+            else if(sender.getName().equals(USER_5.user.getName()))
+            {
+            	USER_5.status = status;
+            }
+            
+        	setNextUserTurn();
+            
         }catch(Exception e){
             e.printStackTrace();
         }
+        
         printAll("handleMoveRequest", true);
     }
     
+    @Override
+    public void handleTurnExpired(IUser turn, HandlingResult result)
+    {
+    	System.out.println("handleTurnExpired: " + turn.getName());
+    	//gameRoom.BroadcastChat("SERVER",  turn.getName() + "Turn Expired");
+    	if(turn.getName().equals(USER_1.user.getName()))
+        {
+    		USER_1.status = UserStatus.PACK;
+        }
+        else if(turn.getName().equals(USER_2.user.getName()))
+        {
+        	USER_2.status = UserStatus.PACK;
+        }
+        else if(turn.getName().equals(USER_3.user.getName()))
+        {
+        	USER_3.status = UserStatus.PACK;
+        }
+        else if(turn.getName().equals(USER_4.user.getName()))
+        {
+        	USER_4.status = UserStatus.PACK;
+        }
+        else if(turn.getName().equals(USER_5.user.getName()))
+        {
+        	USER_5.status = UserStatus.PACK;
+        }
+    }
     
     /*
      * This function is invoked when server receive a chat request.
      */
     @Override
     public void handleChatRequest(IUser sender, String message, HandlingResult result){
-        result.code = CardsConstants.SUBMIT_CARD;
-        try{
-            JSONArray cards = new JSONArray(message);
-            ArrayList cardList = new ArrayList();
-            for(int i=0;i<cards.length();i++){
-                cardList.add(cards.get(i));
-            }
-           boolean status = Utils.checkForWin(cardList);
-            if(status){// for winning condition
-                if(sender.getName().equals(user1_name)){
-                    handleFinishGame(user1_name, cardList);
-                }else if(sender.getName().equals(user2_name)){
-                    handleFinishGame(user2_name, cardList);
-                }else if(sender.getName().equals(user3_name)){
-                    handleFinishGame(user3_name, cardList);
-                }
-            }else{
-                String desc = CardsConstants.SUBMIT_CARD+"#"+"You don't have winning cards";
-                sender.SendChatNotification(CardsConstants.SERVER_NAME, desc, gameRoom);
-            }
-        }catch(JSONException e){
-            e.printStackTrace();
-            result.description = "Error in fetching data";
-        }
+        
+    	
     }
     
     /*
-     * This function is invoked when server leave user request. In case of three user 
-     * server continue game with remaining two users and add the cards of third user in total cards.
+     * This function is invoked when server receive leave user request. In case of two users, user left in room will be declared winner
      */
     @Override
     public void handleUserLeavingTurnRoom(IUser user, HandlingResult result){
-        if(GAME_STATUS!=CardsConstants.RUNNING){
+        
+    	if(user.getName().equals(USER_1.user.getName()))
+        {
+    		USER_1.user = null;
+			USER_1.status = UserStatus.LEFT;
+        }
+        else if(user.getName().equals(USER_2.user.getName()))
+        {
+        	USER_2.user = null;
+			USER_2.status = UserStatus.LEFT;
+        }
+        else if(user.getName().equals(USER_3.user.getName()))
+        {
+        	USER_3.user = null;
+			USER_3.status = UserStatus.LEFT;
+        }
+        else if(user.getName().equals(USER_4.user.getName()))
+        {
+        	USER_4.user = null;
+			USER_4.status = UserStatus.LEFT;
+        }
+        else if(user.getName().equals(USER_5.user.getName()))
+        {
+        	USER_5.user = null;
+			USER_5.status = UserStatus.LEFT;
+        }
+    	
+    	if(GAME_STATUS != CardsConstants.RUNNING)
+        {
             return;
         }
-        if(gameRoom.getJoinedUsers().size()==2){// if three users are playing and one of them left room
-            if(user.getName().equals(user1_name)){
-                CARDS_DECK.addAll(0, USER_1_HAND);
-            }else if(user.getName().equals(user2_name)){
-                CARDS_DECK.addAll(0, USER_2_HAND);
-            }else if(user.getName().equals(user3_name)){
-                CARDS_DECK.addAll(0, USER_3_HAND);
-            }
-        }else if(gameRoom.getJoinedUsers().size()==1){// if two users are playing and one of them left room
-            String leaveingUser = null;
-            if(user.getName().equals(user1_name)){
-                leaveingUser = user1_name;
-            }else if(user.getName().equals(user2_name)){
-                leaveingUser = user2_name;
-            }else if(user.getName().equals(user3_name)){
-                leaveingUser = user3_name;
-            }
-            String message = "You Win! Enemy "+leaveingUser+" left the room";
+    	
+        if(gameRoom.getJoinedUsers().size()==1)
+        {
+        	// if two users are playing and one of them left room
+            
+            String message = user.getName();
             gameRoom.BroadcastChat(CardsConstants.SERVER_NAME, CardsConstants.RESULT_USER_LEFT+"#"+message);
             gameRoom.setAdaptor(null);
-            izone.deleteRoom(gameRoom.getId());
+            //izone.deleteRoom(gameRoom.getId());
             gameRoom.stopGame(CardsConstants.SERVER_NAME);
         }
     }
@@ -174,123 +243,141 @@ public class RummyRoomExtension3User extends BaseTurnRoomAdaptor {
      * This method deal new hand for each user and send
      * chat message having his cards array
      */
-    private void dealNewCards(){
+    private void dealNewCards()
+    {
+    	System.out.println("dealNewCards");
+    	CARDS_DECK.clear();
         for(int i=1;i<=CardsConstants.MAX_CARD;i++){
             CARDS_DECK.add(i);
         }
+        
         Collections.shuffle(CARDS_DECK);
-        for(int i=0;i<MAX_NO_OF_CARDS;i++){
-            USER_1_HAND.add(CARDS_DECK.remove(0));
-            USER_2_HAND.add(CARDS_DECK.remove(0));
-            USER_3_HAND.add(CARDS_DECK.remove(0));
+        for(int i=0;i<MAX_NO_OF_CARDS;i++)
+        {
+        	USER_1.HAND.add(CARDS_DECK.remove(0));
+            USER_2.HAND.add(CARDS_DECK.remove(0));
+            USER_3.HAND.add(CARDS_DECK.remove(0));
+            USER_4.HAND.add(CARDS_DECK.remove(0));
+            USER_5.HAND.add(CARDS_DECK.remove(0));
         }
+        
+        dealerIndex++;
+        if(dealerIndex == 5)
+        	dealerIndex = 0;
+        
+        turnIndex = dealerIndex;
+        
         List<IUser>list = gameRoom.getJoinedUsers();
-        if(list.size()==3){
-            IUser iuser1 = list.get(0);
-            IUser iuser2 = list.get(1);
-            IUser iuser3 = list.get(2);
-            user1_name = iuser1.getName();
-            user2_name = iuser2.getName();
-            user3_name = iuser3.getName();
-            try{
-                JSONObject dataUser1 = new JSONObject();
-                dataUser1.put(iuser1.getName(), USER_1_HAND);
-                JSONObject dataUser2 = new JSONObject();
-                dataUser2.put(iuser2.getName(), USER_2_HAND);
-                JSONObject dataUser3 = new JSONObject();
-                dataUser3.put(iuser3.getName(), USER_3_HAND);
-                iuser1.SendChatNotification(CardsConstants.SERVER_NAME, CardsConstants.PLAYER_HAND+"#"+dataUser1, gameRoom);
-                iuser2.SendChatNotification(CardsConstants.SERVER_NAME, CardsConstants.PLAYER_HAND+"#"+dataUser2, gameRoom);
-                iuser3.SendChatNotification(CardsConstants.SERVER_NAME, CardsConstants.PLAYER_HAND+"#"+dataUser3, gameRoom);
-            }catch(Exception e){
-                e.printStackTrace();
-            }
+        USER_1.status = UserStatus.WAITING;
+       	USER_2.status = UserStatus.WAITING;
+       	USER_3.status = UserStatus.WAITING;
+       	USER_4.status = UserStatus.WAITING;
+       	USER_5.status = UserStatus.WAITING;
+       	
+        List<String> userNames = new ArrayList<String>();
+        if(USER_1.user != null)
+        	userNames.add(USER_1.user.getName());
+        if(USER_2.user != null)
+        	userNames.add(USER_2.user.getName());
+        if(USER_3.user != null)
+        	userNames.add(USER_3.user.getName());
+        if(USER_4.user != null)
+        	 userNames.add(USER_4.user.getName());
+        if(USER_5.user != null)
+        	userNames.add(USER_5.user.getName());
+        
+        for(int i = 0; i < list.size(); ++i)
+        {
+        	IUser user = list.get(i);
+        	int index = userNames.indexOf(user.getName());
+        	if(index != -1)
+        	{
+        		list.remove(user);
+        		if(index == 0)
+        		{
+        			USER_1.user = user;
+        			USER_1.status = UserStatus.PLAYING;
+        		}
+        		else if(index == 1)
+        		{
+        			USER_2.user = user;
+        			USER_2.status = UserStatus.PLAYING;
+        		}
+        		else if(index == 2)
+        		{
+        			USER_3.user = user;
+        			USER_3.status = UserStatus.PLAYING;
+        		}
+        		else if(index == 3)
+        		{
+        			USER_4.user = user;
+        			USER_4.status = UserStatus.PLAYING;
+        		}
+        		else if(index == 4)
+        		{
+        			USER_5.user = user;
+        			USER_5.status = UserStatus.PLAYING;
+        		}
+        	}
         }
+        
+        for(int i = 0; i < list.size(); ++i)
+        {
+        	IUser user = list.get(i);
+        	if(USER_1.status == UserStatus.WAITING)
+    		{
+    			USER_1.user = user;
+    			USER_1.status = UserStatus.PLAYING;
+    		}
+    		else if(USER_2.status == UserStatus.WAITING)
+    		{
+    			USER_2.user = user;
+    			USER_2.status = UserStatus.PLAYING;
+    		}
+    		else if(USER_3.status == UserStatus.WAITING)
+    		{
+    			USER_3.user = user;
+    			USER_3.status = UserStatus.PLAYING;
+    		}
+    		else if(USER_4.status == UserStatus.WAITING)
+    		{
+    			USER_4.user = user;
+    			USER_4.status = UserStatus.PLAYING;
+    		}
+    		else if(USER_5.status == UserStatus.WAITING)
+    		{
+    			USER_5.user = user;
+    			USER_5.status = UserStatus.PLAYING;
+    		}
+        }
+        
         printAll("dealNewCards", true);
     }
     
     @Override
     public void onTimerTick(long time){
         /*
-         * A game when room full
-         * or we can say max users are equals to joined users
+         * Game start when minimum no. of users are joined
          */
-        
-        if(GAME_STATUS==CardsConstants.STOPPED && gameRoom.getJoinedUsers().size()==gameRoom.getMaxUsers()){
+    	System.out.println("onTimerTick... " + time);
+        if(GAME_STATUS==CardsConstants.STOPPED && gameRoom.getJoinedUsers().size()>=CardsConstants.MIN_PLAYER_TOSTART){
             GAME_STATUS=CardsConstants.RUNNING;
+            System.out.println("GAME START... ");
             dealNewCards();
+            setNextUserTurn();
             gameRoom.startGame(CardsConstants.SERVER_NAME);
+            gameRoom.BroadcastChat("SERVER", "HEY HEY GAME STARTED>>>>>>>>>>>>");
         }else if(GAME_STATUS==CardsConstants.RESUMED){
             GAME_STATUS=CardsConstants.RUNNING;
             gameRoom.startGame(CardsConstants.SERVER_NAME);
         }
-       
-        
+      
     }
-    /*
-     * This method return last element of TOTAL_CARDS
-     * In case of empty list again shuffle cards
-     */
-    private Integer getNewCard(){
-        if(CARDS_DECK.isEmpty()){
-            for(int i=1;i<=CardsConstants.MAX_CARD;i++){
-                CARDS_DECK.add(i);
-            }
-            Collections.shuffle(CARDS_DECK);
-            for(Integer i:USER_1_HAND){
-                CARDS_DECK.remove(new Integer(i));
-            }
-            for(Integer j:USER_2_HAND){
-                CARDS_DECK.remove(new Integer(j));
-            }
-            for(Integer k:USER_3_HAND){
-                CARDS_DECK.remove(new Integer(k));
-            }
-            if(TOP_CARD_DISCARD_PILE!=-1){
-                CARDS_DECK.remove(new Integer(TOP_CARD_DISCARD_PILE));
-            }
-        }
-        return CARDS_DECK.remove(CARDS_DECK.size()-1);
-     }
-            
-    /*
-     * This function validate move send by client.
-     */
-    private void validateAndHandleMove(IUser sender, int topCard, HandlingResult result){
-        if(sender.getName().equals(user1_name)){
-            if(USER_1_HAND.indexOf(topCard)!=-1){
-                USER_1_HAND.remove(new Integer(topCard));
-                if(USER_1_HAND.size()<MAX_NO_OF_CARDS){
-                    USER_1_HAND.add(TOP_CARD_DISCARD_PILE);
-                }
-                TOP_CARD_DISCARD_PILE = topCard;
-            }else{
-                result.code = CardsConstants.INVALID_MOVE;
-                result.description = "Invalid Move";
-            }
-        }else if(sender.getName().equals(user2_name)){
-            if(USER_2_HAND.indexOf(topCard)!=-1){
-                USER_2_HAND.remove(new Integer(topCard));
-                if(USER_2_HAND.size()<MAX_NO_OF_CARDS){
-                    USER_2_HAND.add(TOP_CARD_DISCARD_PILE);
-                }
-                TOP_CARD_DISCARD_PILE = topCard;
-            }else{
-                result.code = CardsConstants.INVALID_MOVE;
-                result.description = "Invalid Move";
-            }
-        }else if(sender.getName().equals(user3_name)){
-            if(USER_3_HAND.indexOf(topCard)!=-1){
-                USER_3_HAND.remove(new Integer(topCard));
-                if(USER_3_HAND.size()<MAX_NO_OF_CARDS){
-                    USER_3_HAND.add(TOP_CARD_DISCARD_PILE);
-                }
-                TOP_CARD_DISCARD_PILE = topCard;
-            }else{
-                result.code = CardsConstants.INVALID_MOVE;
-                result.description = "Invalid Move";
-            }
-        }
+    
+    @Override
+    public void handleStartGameRequest(IUser sender, HandlingResult result)
+    {
+    	System.out.println("handleStartGameRequest... " + sender.getName());
     }
     
     /*
@@ -316,11 +403,48 @@ public class RummyRoomExtension3User extends BaseTurnRoomAdaptor {
     private void printAll(String TAG, boolean status){
         if(status){
             System.out.println("==================="+TAG+"======================");
-            System.out.println("USER_1:   "+USER_1_HAND);
-            System.out.println("USER_2:   "+USER_2_HAND);
-            System.out.println("USER_3:   "+USER_3_HAND);
+//            System.out.println("USER_1:   "+USER_1);
+//            System.out.println("USER_2:   "+USER_2);
+//            System.out.println("USER_3:   "+USER_3);
+//            System.out.println("USER_4:   "+USER_4);
+//            System.out.println("USER_5:   "+USER_5);
             System.out.println("TOTAL_CA: "+CARDS_DECK);
-            System.out.println("TOP_CARD: "+TOP_CARD_DISCARD_PILE);
         }
+    }
+    
+    private void setNextUserTurn()
+    {
+    	PlayerInfo player = null;
+        do
+        {
+        	turnIndex++;
+        	if(turnIndex == 5)
+        		turnIndex = 0;
+        	
+        	if(turnIndex == 0)
+        	{
+        		player = USER_1;
+        	}
+        	else if(turnIndex == 1)
+        	{
+        		player = USER_2;
+        	}
+        	else if(turnIndex == 2)
+        	{
+        		player = USER_3;
+        	}
+        	else if(turnIndex == 3)
+        	{
+        		player = USER_4;
+        	}
+        	else if(turnIndex == 4)
+        	{
+        		player = USER_5;
+        	}
+        	
+        } while (player.status != UserStatus.PLAYING);
+        
+        System.out.println("NEXTTURN: " + player.user.getName());
+        gameRoom.setNextTurn(player.user);
     }
 }

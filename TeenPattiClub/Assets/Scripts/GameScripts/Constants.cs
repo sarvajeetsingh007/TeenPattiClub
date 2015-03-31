@@ -27,7 +27,7 @@ public class Constants {
 	
 	public const int MAX_RECOVERY_ATTEMPT = 10;
 	
-	public const int TURN_TIME = 30;
+	public const int TURN_TIME = 10;
 	
 	public const int TOTAL_CARDS = 52;
 	

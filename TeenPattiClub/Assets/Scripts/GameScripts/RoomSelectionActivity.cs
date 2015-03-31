@@ -15,6 +15,7 @@ public class RoomSelectionActivity : MonoBehaviour, RoomRequestListener, ZoneReq
 
 	private WarpClient theClient;
 	public ProgressDialog progressDialog;
+	public GameObject gameView;
 
 	void Awake()
 	{
@@ -24,6 +25,8 @@ public class RoomSelectionActivity : MonoBehaviour, RoomRequestListener, ZoneReq
 
 	void Start ()
 	{
+		Debug.Log ("RoomSelectionActivity " + Application.loadedLevelName);
+
 		theClient.AddZoneRequestListener(this);
 		theClient.AddRoomRequestListener(this);
 	}
@@ -83,7 +86,8 @@ public class RoomSelectionActivity : MonoBehaviour, RoomRequestListener, ZoneReq
 	private void GoToGameView(RoomEvent eventObj)
 	{
 		// GoToGameView
-		Application.LoadLevel ("GameScene");
+		//Application.LoadLevel ("GameScene");
+		gameView.SetActive (true);
 	}
 
 	private Dictionary<string, object> getTableProperty(bool roomIsPrivate)

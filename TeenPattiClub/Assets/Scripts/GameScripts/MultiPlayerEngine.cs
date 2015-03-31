@@ -37,6 +37,7 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 	
 	void Start ()
 	{
+		Debug.Log ("MULTIPLAYER ENGINE");
 		roomId = Constants.ROOM_ID;
 		CARD_STATUS = Constants.BLIND;
 		GAME_STATUS = Constants.STOPPED;
@@ -50,6 +51,7 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 	
 	void OnDestroy ()
 	{
+		Debug.Log ("ENGINE DESTROYED");
 		theClient.RemoveTurnBasedRoomRequestListener(this);
 		theClient.RemoveRoomRequestListener(this);
 
@@ -157,10 +159,10 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 //	public void onMoveCompleted(MoveEvent move)	
 //	public void onChatReceived (ChatEvent eventObj)
 
-	#region ConnectionRequestListener
+	//#region ConnectionRequestListener
 	public void onConnectDone(ConnectEvent eventObj)
 	{
-		Log ("onConnectDone : " + eventObj.getResult());
+		Debug.Log ("ENGINE onConnectDone : " + eventObj.getResult() + eventObj.ToString());
 	}
 	
 	public void onInitUDPDone(byte res)
@@ -170,20 +172,20 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 	
 	public void onDisconnectDone(ConnectEvent eventObj)
 	{
-		Log("onDisconnectDone : " + eventObj.getResult());
+		Debug.Log("onDisconnectDone : " + eventObj.getResult());
 	}
-	#endregion
+	//#endregion
 	
 	//RoomRequestListener
-	#region RoomRequestListener
+	//#region RoomRequestListener
 	public void onSubscribeRoomDone (RoomEvent eventObj)
 	{
-		Log ("onSubscribeRoomDone : " + eventObj.getResult());
+		Debug.Log ("onSubscribeRoomDone : " + eventObj.getResult());
 	}
 	
 	public void onUnSubscribeRoomDone (RoomEvent eventObj)
 	{
-		Log ("onUnSubscribeRoomDone : " + eventObj.getResult());
+		Debug.Log ("onUnSubscribeRoomDone : " + eventObj.getResult());
 	}
 	
 	public void onJoinRoomDone (RoomEvent eventObj)
@@ -193,109 +195,109 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 	
 	public void onLockPropertiesDone(byte result)
 	{
-		Log ("onLockPropertiesDone : " + result);
+		Debug.Log ("onLockPropertiesDone : " + result);
 	}
 	
 	public void onUnlockPropertiesDone(byte result)
 	{
-		Log ("onUnlockPropertiesDone : " + result);
+		Debug.Log ("onUnlockPropertiesDone : " + result);
 	}
 	
 	public void onLeaveRoomDone (RoomEvent eventObj)
 	{
-		Log ("onLeaveRoomDone : " + eventObj.getResult());
+		Debug.Log ("onLeaveRoomDone : " + eventObj.getResult());
 	}
 	
 	public void onGetLiveRoomInfoDone (LiveRoomInfoEvent eventObj)
 	{
-		Log ("onGetLiveRoomInfoDone : " + eventObj.getResult());
+		Debug.Log ("onGetLiveRoomInfoDone : " + eventObj.getResult());
 	}
 	
 	public void onSetCustomRoomDataDone (LiveRoomInfoEvent eventObj)
 	{
-		Log ("onSetCustomRoomDataDone : " + eventObj.getResult());
+		Debug.Log ("onSetCustomRoomDataDone : " + eventObj.getResult());
 	}
 	
 	public void onUpdatePropertyDone(LiveRoomInfoEvent eventObj)
 	{
 		if (WarpResponseResultCode.SUCCESS == eventObj.getResult())
 		{
-			Log ("UpdateProperty event received with success status");
+			Debug.Log ("UpdateProperty event received with success status");
 		}
 		else
 		{
-			Log ("Update Propert event received with fail status. Status is :" + eventObj.getResult().ToString());
+			Debug.Log ("Update Propert event received with fail status. Status is :" + eventObj.getResult().ToString());
 		}
 	}
 
 	public void onInvokeRoomRPCDone(RPCEvent evnt)
 	{
-		Log ("onInvokeRoomRPCDone : " + evnt.ToString());
+		Debug.Log ("onInvokeRoomRPCDone : " + evnt.ToString());
 	}
-	#endregion
+	//#endregion
 	
 	//TurnBasedRoomListener
-	#region TurnBasedRoomListener
+	//#region TurnBasedRoomListener
 	public void onSendMoveDone(byte result)
 	{
-		Log ("onSendMoveDone : " + result);
+		Debug.Log ("onSendMoveDone : " + result);
 	}
 	
 	public void onStartGameDone(byte result)
 	{
-		Log ("onStartGameDone : " + result);
+		Debug.Log ("onStartGameDone : " + result);
 	}
 	
 	public void onStopGameDone(byte result)
 	{
-		Log ("onStopGameDone : " + result);
+		Debug.Log ("onStopGameDone : " + result);
 	}
 	
 	public void onSetNextTurnDone(byte result)
 	{
-		Log ("onSetNextTurnDone : " + result);
+		Debug.Log ("onSetNextTurnDone : " + result);
 	}
 	
 	public void onGetMoveHistoryDone(byte result, MoveEvent[] moves)
 	{
-		Log ("onGetMoveHistoryDone : " + result);
+		Debug.Log ("onGetMoveHistoryDone : " + result);
 	}
-	#endregion
+	//#endregion
 	
 	//ZoneRequestListener
-	#region ZoneRequestListener
+	//#region ZoneRequestListener
 	public void onDeleteRoomDone (RoomEvent eventObj)
 	{
-		Log ("onDeleteRoomDone : " + eventObj.getResult());
+		Debug.Log ("onDeleteRoomDone : " + eventObj.getResult());
 	}
 	
 	public void onGetAllRoomsDone (AllRoomsEvent eventObj)
 	{
-		Log ("onGetAllRoomsDone : " + eventObj.getResult());
+		Debug.Log ("onGetAllRoomsDone : " + eventObj.getResult());
 		for(int i=0; i< eventObj.getRoomIds().Length; ++i)
 		{
-			Log ("Room ID : " + eventObj.getRoomIds()[i]);
+			Debug.Log ("Room ID : " + eventObj.getRoomIds()[i]);
 		}
 	}
 	
 	public void onCreateRoomDone (RoomEvent eventObj)
 	{
-		Log ("onCreateRoomDone : " + eventObj.getResult());
+		Debug.Log ("onCreateRoomDone : " + eventObj.getResult());
 	}
 	
 	public void onGetOnlineUsersDone (AllUsersEvent eventObj)
 	{
-		Log ("onGetOnlineUsersDone : " + eventObj.getResult());
+		Debug.Log ("onGetOnlineUsersDone : " + eventObj.getResult());
 	}
 	
 	public void onGetLiveUserInfoDone (LiveUserInfoEvent eventObj)
 	{
-		Log ("onGetLiveUserInfoDone : " + eventObj.getResult());
+		Debug.Log ("onGetLiveUserInfoDone : " + eventObj.getResult());
 	}
 	
 	public void onSetCustomUserDataDone (LiveUserInfoEvent eventObj)
 	{
-		Log ("onSetCustomUserDataDone : " + eventObj.getResult());
+		Debug.Log ("onSetCustomUserDataDone : " + eventObj.getResult());
 	}
 	
 	public void onGetMatchedRoomsDone(MatchedRoomsEvent eventObj)
@@ -309,33 +311,33 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 //			}
 //		}
 	}		
-	#endregion
+	//#endregion
 	
 	//NotifyListener
-	#region NotifyListener
+	//#region NotifyListener
 	
 	public void onRoomCreated (RoomData eventObj)
 	{
-		Log ("onRoomCreated");
+		Debug.Log ("onRoomCreated");
 		
 	}
 	public void onPrivateUpdateReceived (string sender, byte[] update, bool fromUdp)
 	{
-		Log ("onPrivateUpdate");
+		Debug.Log ("onPrivateUpdate");
 	}
 	public void onRoomDestroyed (RoomData eventObj)
 	{
-		Log ("onRoomDestroyed");
+		Debug.Log ("onRoomDestroyed");
 	}
 	
 	public void onUserLeftRoom (RoomData eventObj, string username)
 	{
-		Log ("onUserLeftRoom : " + username);
+		Debug.Log ("onUserLeftRoom : " + username);
 	}
 	
 	public void onUserJoinedRoom (RoomData eventObj, string username)
 	{
-		Log ("onUserJoinedRoom : " + username);
+		Debug.Log ("onUserJoinedRoom : " + username);
 		
 		/*if (Utility.Instance.isNewRoomCreated)
 		{
@@ -345,22 +347,22 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 	
 	public void onUserLeftLobby (LobbyData eventObj, string username)
 	{
-		Log ("onUserLeftLobby : " + username);
+		Debug.Log ("onUserLeftLobby : " + username);
 	}
 	
 	public void onUserJoinedLobby (LobbyData eventObj, string username)
 	{
-		Log ("onUserJoinedLobby : " + username);
+		Debug.Log ("onUserJoinedLobby : " + username);
 	}
 	
 	public void onUserChangeRoomProperty(RoomData roomData, string sender, Dictionary<string, object> properties, Dictionary<string, string> lockedPropertiesTable)
 	{
-		Log ("onUserChangeRoomProperty : " + sender);
+		Debug.Log ("onUserChangeRoomProperty : " + sender);
 	}
 	
 	public void onPrivateChatReceived(string sender, string message)
 	{
-		Log ("onPrivateChatReceived : " + sender);
+		Debug.Log ("onPrivateChatReceived : " + sender);
 	}
 	
 	public void onMoveCompleted(MoveEvent move)
@@ -417,35 +419,35 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 	
 	public void onUpdatePeersReceived (UpdateEvent eventObj)
 	{
-		Log ("onUpdatePeersReceived");
+		Debug.Log ("onUpdatePeersReceived");
 	}
 	
 	public void onUserChangeRoomProperty(RoomData roomData, string sender, Dictionary<string, System.Object> properties)
 	{
-		Log("Notification for User Changed Room Propert received");
-		Log(roomData.getId());
-		Log(sender);
+		Debug.Log("Notification for User Changed Room Propert received");
+		Debug.Log(roomData.getId());
+		Debug.Log(sender);
 		foreach (KeyValuePair<string, System.Object> entry in properties)
 		{
-			Log("KEY:" + entry.Key);
-			Log("VALUE:" + entry.Value.ToString());
+			Debug.Log("KEY:" + entry.Key);
+			Debug.Log("VALUE:" + entry.Value.ToString());
 		}
 	}
 	
 	public void onUserPaused(string locid, bool isLobby, string username)
 	{
-		Log("onUserPaused");
+		Debug.Log("onUserPaused");
 	}
 	
 	public void onUserResumed(string locid, bool isLobby, string username)
 	{
-		Log("onUserResumed");
+		Debug.Log("onUserResumed");
 	}
 	
 	public void onGameStarted(string sender, string rId, string nextTurn)
 	{
-		roomId = rId;
 		Debug.Log("onGameStarted");
+		roomId = rId;
 		if(GAME_STATUS==Constants.STOPPED)
 		{
 			if( !ReferenceEquals(null, progressDialog) ) //if(progressDialog!=null)
@@ -485,8 +487,8 @@ public class MultiPlayerEngine : MonoBehaviour, ConnectionRequestListener, RoomR
 	
 	public void onNextTurnRequest (string lastTurn)
 	{
-		Log("onNextTurnRequest");
+		Debug.Log("onNextTurnRequest");
 	}
 	
-	#endregion
+	//#endregion
 }
